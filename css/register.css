@@ -1,0 +1,347 @@
+body{
+	color: #666666;
+	font-family: "microsoft yahei";
+}
+
+/*登录页面头部*/
+#form{
+	height: 110px;	
+	border-bottom: 1px solid #CCCCCC;	
+}
+.logo_con{
+	width: 1210px;
+
+}
+#form .logo_con .logo_a{
+	width: 160px;
+	height: 50px;
+	float: left;
+	background-image: url(../img/logo-201305-b.png);
+	margin-top: 24px;
+	background-position: -7px -3px;
+}
+#form .logo_con .text_title{
+	float: left;
+	margin-top: 34px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	padding-left: 30px;
+	color: #333;
+}
+#form .logo_con .text_right{
+	color: #999;
+	margin-top: 55px;
+	font-size: 16px;
+	float: right;
+	
+}
+#form .logo_con .text_right a{
+	color: #333;
+}
+#form .logo_con .text_right a:hover{
+	color: #333;
+}
+/*登录页面头部end*/
+/*登录页面主体*/
+/*登录表单*/
+#container .main{
+	width: 830px;
+	margin: 50px auto 60px;
+	overflow: hidden;
+}
+#container .main .f1{
+	width: 400px;
+	float: left;
+}
+#reg{
+	position: relative;
+}
+#reg .reg_a{
+	position: relative;
+	border: 1px solid #ddd;
+	width: 398px;
+	height: 52px;
+	margin-bottom: 31px;
+}
+#reg .reg_a label{
+	float: left;
+	line-height: 52px;
+	width: 90px;
+	height: 52px;
+	padding-left: 20px;
+}
+#reg .reg_a input{
+	border: 0 none;
+	font-size: 14px;
+	width: 190px;
+	height: 19px;
+	padding: 16px 0 11px 20px;
+	display: inline-block;
+	outline: 0;
+}
+#reg .reg_a .reg_aa {
+	border-right: 1px solid #DDDDDD;
+	height: 52px;
+	width: 104px;
+}
+#reg .reg_a .reg_aa .reg_b{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background-image: url(../img/icon.png);
+	margin-top: 15px;
+	margin-left: 5px;
+	background-position: -2px -151px;
+}
+#reg .reg_c {
+	height: 27px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #c5c5c5;
+	position: relative;
+	bottom: -3px;
+}
+#reg .reg_c a{
+	position: absolute;
+	right: 0;
+	color: #38f;
+}
+#reg .reg_bb input{
+	width: 157px;
+}
+#reg .reg_a button,
+#reg .reg_a img{
+	float: right;
+	display:inline-block;
+	height: 52px;
+	width: 110px;
+	position: relative;
+	right: 3px;
+}
+#reg .reg_a button{
+	background: #f2f2f2;
+	color: #333333;
+	border: 0;
+	cursor: pointer;
+}
+#reg  .reg_d{
+	color: #333333;
+	font-size: 12px;
+	border: 0;
+	margin: 0;
+}
+#reg  .reg_d .reg_dd input{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #cfd1d3;
+	padding: 0;
+	margin: 0;
+}
+#reg  .reg_d .reg_dd input,
+#reg  .reg_d .reg_dd a,
+#reg  .reg_d .reg_dd span{
+	float: left;
+}
+#reg  .reg_d .reg_dd a{
+	color: #38f;	
+}
+#reg .reg_e{
+	margin: 0;
+}
+#reg .reg_e button{
+	background: #e22;
+	width: 100%;
+	height: 54px;
+	color: #fff;
+	border: 0;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+}
+/*登录表单end*/
+/*登录页面右侧内容*/
+#form_com{
+	height: 605px;
+	float: left;
+	margin-left: 104px;
+	padding-left: 90px;
+	border-left: 1px solid #e6e6e6;
+}
+#form_com .company{
+	width: 160px;
+	margin-left: 30px;
+	height: 60px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.company_a{
+	display: block;
+	width: 160px;
+	height: 30px;
+}
+.company_a i{
+	background-image: url(../img/icon.png);
+	display: inline-block;
+	width: 30px;
+	height: 29px;
+	margin-right: 15px;
+	background-position: 0 -50px;
+	float: left;
+}
+#form_com .company .company_a span{
+	line-height: 30px;
+	float: left;
+}
+#form_com .company_b{
+	width: 160px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#form_com .company_b .company_a{
+	width: 170px;
+	display: block;
+	height: 40px;
+}
+#form_com .company_b .company_a span{
+	float: left;
+	font-size: 14px;
+}
+#form_com .company_b .company_a i{
+	background-position: -50px -50px;
+}
+/*登录页面右侧内容end*/
+/*登录页面主体end*/
+/*网页尾部*/
+#footer{
+	height: 500px;
+	background-color: #eaeaea;
+}
+.foot_a{
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+}
+#footer .foot_a .foot_a1 .foot_a2{
+	overflow: hidden;
+	height: 42px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_a3{
+	float: left;
+	width: 297px;
+}
+.foot_a4{
+	width: 148px;
+	position: relative;
+	margin: 0 auto;
+	padding-left: 45px;
+	text-align: center;
+}
+.foot_a4 h5{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 36px;
+	height: 42px;
+	font-size: 0.8em;
+	font-weight: bold;
+	background-image: url(../img/ico_service.png);
+}
+.foot_a4 p{
+	overflow: hidden;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #444;	
+	font-weight: bold;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa4 h5{
+	background-position: 0 128px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa5 h5{
+	background-position: 0 85px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa6 h5{
+	background-position: 0 42px;
+}
+.foot_b2{
+	overflow: hidden;
+	height: 160px;
+}
+.foot_b3{
+	float: left;
+	width: 198px;
+	line-height: 22px;
+}
+#footer .foot_b .foot_b1 .foot_b2 .foot_b3 .foot_b4 li{
+	width: 198px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.foot_b5{
+	float: right;
+	width: 200px;
+	height: 150px;
+	background-image: url(../img/ico_footer.png);
+}
+.foot_b5 .foot_b6{
+	padding:0 10px;
+	font-size: 12px;
+	color: #666666;
+}
+.foot_b5 .foot_b6 .foot_b7{
+	text-align: right;
+}
+#footer .foot_c .foot_c1{
+	padding: 15px 0;
+	text-align: center;
+}
+#footer .foot_c .foot_c1 .foot_c3{
+	padding: 10px 0;
+}
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4 span
+{
+	margin: 0 10px;
+	line-height: 22px;
+}
+#footer .foot_c .foot_c1 .foot_c2 span{
+	margin: 0 10px;
+	color: #CCCCCC;
+	
+}
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4 a,
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4{
+	font-size: 12px;
+	color: #999;
+} 
+#footer .foot_c .foot_c1 .foot_c2{
+	font-size: 12px;
+}
+#footer .foot_c .foot_c1 .foot_cc5 .foot_c5{
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 3px;
+	width: 103px;
+	height: 32px;
+	background-image: url(../img/ico_footer.png);
+	line-height: 1000px;
+}
+.foot_c5{
+	background-position: 206px 102px;
+}
+.foot_c6{
+	background-position: 102px 99px;
+}
+.foot_c7{
+	background-position: 0px 65px;
+}
+.foot_c8{
+	background-position: 102px 66px;
+}
+.foot_c9{
+	background-position: 207px 32px;
+}
+.foot_c10{
+	background-position: 309px 32px;
+}
+/*网页尾部end*/

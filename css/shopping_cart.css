@@ -1,0 +1,375 @@
+body{
+	font-size: 12px;
+}
+img{
+	vertical-align: middle;
+}
+.w{
+	width: 990px;
+}
+/*顶部导航条*/
+#nav{
+	background: #F1F1F1;
+}
+#nav .w{
+	width: 990px;
+	background:#F1F1F1;
+}
+#nav .nav_1 .pos{
+	position: absolute;
+	left: 150px;
+}
+/*顶部导航条end*/
+/*logo和搜索框*/
+.w1{
+	padding: 15px 0 10px;
+	overflow: hidden;
+}
+#logo-2017{
+	float: left;
+	position: relative;
+	width: 270px;
+	padding: 0;
+	height: 60px;
+}
+#logo-2017 .logo{
+	display: block;
+	width: 270px;
+	height: 60px;
+	background: url(../img/logo-201305.png);
+}
+#logo-2017 .link2{
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	top: 8px;
+	right: 0;
+	background: #FFFFFF;
+}
+#logo-2017 .link2 b{
+	background: url(../img/cart-icon.png)no-repeat;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	top: 0;
+	right: 0;
+}
+/*搜索框*/
+.cart-search{
+	float: right;
+	margin-top: 20px;
+	border: 2px solid #c91623;
+	background: #c91623;
+	height: 24px;
+	overflow: hidden;
+}
+.cart-search .text{
+	border: 0;
+	height: 18px;
+	line-height: 18px;
+	width: 260px;
+	padding: 3px 5px;
+}
+.cart-search .button{
+	display: inline-block;
+	width: 48px;
+	height: 24px;
+	background: #c91623;
+	color: #FFFFFF;
+	font-weight: 700;
+	vertical-align: top;
+	border: 0;
+}
+/*搜索框end*/
+/*logo和搜索框end*/
+/*购物车主体*/
+#container .mb10{
+	margin-top: 10px;
+}
+#container .cart-empty{
+	
+}
+.cart-empty{
+	height: 98px;
+	padding: 80px 0 120px;
+	color: #333;
+}
+.cart-empty .message{
+	height: 98px;
+	padding-left: 341px;
+	background: url(../img/no-login-icon.png)250px 22px no-repeat;
+}
+.cart-empty .message ul{
+	padding-top: 23px;
+	overflow: hidden;
+}
+.cart-empty .message li{
+	font-size: 14px;
+	line-height: 26px;
+	float: none;
+}
+.ftx{
+	color: #005ea7;
+	font-size: 12px;
+}
+/*购物车主体end*/
+/*猜你喜欢*/
+#m .mt{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#m .mt .itme{
+	display:inline-block;
+	margin-right: 35px;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #fff;
+	font-size: 12px;
+}
+#m .mt .curr{
+	color: #e4393c;
+	font-weight: 700;
+	border-color: #e4393c;
+}
+
+#m .goods-list-tab{
+	position: absolute;
+	right: 0;
+	top: -26px;
+	width: 52px;
+}
+#m .goods-list-tab .s-time{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	overflow: hidden;
+	background: #aaa;
+	border-radius: 4px;
+}
+#m .goods-list-tab .curr1{
+	width: 26px;
+	background:#e4393c;
+}
+#m .mc{
+	height: 326px;
+	overflow: visible;
+	position: relative;
+}
+#m .c-panel{
+	width: 100%;
+	height: 100%;
+}
+#m .c-panel ul{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+#m .goods-list .time{
+	position: relative;
+	width: 206px;
+	padding: 20px;
+	background: #FFFFFF;
+	margin: -1px 0 0 -1px;
+	overflow: hidden;
+	border: 1px dashed #cacaca;
+}
+#m .goods-list .p-img{
+	width: 160px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#m .goods-list .p-name{
+	height: 36px;
+	line-height: 18px;
+	margin: 5px 0;
+	overflow: hidden;
+}
+#m .goods-list .p-name a{
+	color: #333;
+}
+#m .goods-list .p-price{
+	width: 100%;
+	margin: 5px 0 2px;
+	overflow: hidden;
+	text-align: center;
+}
+#m .goods-list .p-price strong{
+	font-size: 14px;
+	color: #d91f20;
+	font-weight: 400;
+}
+#m .goods-list .p-but{
+	margin: 10px 0 0;
+	text-align: center;
+}
+#m .goods-list .p-but .btn-append{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 20px;
+	border: 1px solid #999;
+	border-radius: 3px;
+	color: #666;
+	text-align: center;
+}
+#m .goods-list .p-but .btn-append b{
+	background-image: url(../img/addtocart-icons.png);
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-right: 5px;
+	background-position: 0 -57px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#m .goods-list .p-but .btn-append:hover{
+	background: #E4393C;
+	color: #FFFFFF;
+	
+}
+#m .goods-list .p-but .btn-append:hover b{
+	background-image: url(../img/addtocart-icons.png);
+	background-position: -29px -57px;
+}
+/*猜你喜欢end*/
+/*网页尾部*/
+#footer{
+	height: 500px;
+	background-color: #fff;
+}
+.foot_a{
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+	background: #dedede;
+}
+#footer .foot_a .foot_a1 .foot_a2{
+	overflow: hidden;
+	height: 42px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_a3{
+	float: left;
+	width: 245px;
+}
+.foot_a4{
+	width: 148px;
+	position: relative;
+	margin: 0 auto;
+	padding-left: 45px;
+	text-align: center;
+}
+.foot_a4 h5{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 36px;
+	height: 42px;
+	font-size: 0.8em;
+	font-weight: bold;
+	background-image: url(../img/ico_service.png);
+}
+.foot_a4 p{
+	overflow: hidden;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #444;	
+	font-weight: bold;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa4 h5{
+	background-position: 0 128px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa5 h5{
+	background-position: 0 85px;
+}
+#footer .foot_a .foot_a1 .foot_a2 .foot_aa6 h5{
+	background-position: 0 42px;
+	
+}
+.foot_b3 h5{
+	font-size: 15px;
+	color: #999;
+}
+.foot_b2{
+	overflow: hidden;
+	height: 160px;
+}
+.foot_b3{
+	float: left;
+	width: 220px;
+	line-height: 22px;
+}
+#footer .foot_b .foot_b1 .foot_b2 .foot_b3 .foot_b4 li{
+	width: 198px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.foot_b5{
+	float: right;
+	width: 200px;
+	height: 150px;
+	background-image: url(../img/ico_footer.png);
+}
+.foot_b5 .foot_b6{
+	padding:0 10px;
+	font-size: 12px;
+	color: #666666;
+}
+.foot_b5 .foot_b6 .foot_b7{
+	text-align: right;
+}
+#footer .foot_c .foot_c1{
+	padding: 15px 0;
+	text-align: center;
+}
+#footer .foot_c .foot_c1 .foot_c3{
+	padding: 10px 0;
+}
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4 span
+{
+	margin: 0 10px;
+	line-height: 22px;
+}
+#footer .foot_c .foot_c1 .foot_c2 span{
+	margin: 0 3px;
+	color: #CCCCCC;
+	
+}
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4 a,
+#footer .foot_c .foot_c1 .foot_c3 .foot_c4{
+	font-size: 12px;
+	color: #999;
+} 
+#footer .foot_c .foot_c1 .foot_c2{
+	font-size: 12px;
+}
+#footer .foot_c .foot_c1 .foot_cc5 .foot_c5{
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 3px;
+	width: 103px;
+	height: 32px;
+	background-image: url(../img/ico_footer.png);
+	line-height: 1000px;
+}
+.foot_c5{
+	background-position: 206px 102px;
+}
+.foot_c6{
+	background-position: 102px 99px;
+}
+.foot_c7{
+	background-position: 0px 65px;
+}
+.foot_c8{
+	background-position: 102px 66px;
+}
+.foot_c9{
+	background-position: 207px 32px;
+}
+.foot_c10{
+	background-position: 309px 32px;
+}
+/*网页尾部end*/

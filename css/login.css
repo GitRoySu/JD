@@ -1,0 +1,234 @@
+/*登录页面*/
+/*登录页面顶部*/
+a{
+	font-size: 11px;
+}
+a:hover{
+	text-decoration:underline;
+}
+.j{
+	width: 990px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#logo{
+	margin: 10px 0;
+	overflow: hidden;
+	height: 60px;
+	width: 300px;
+	position: relative;
+	float: left;
+}
+#logo a{
+	overflow: hidden;
+	height: auto;
+}
+#logo b{
+	background-image: url(../img/l-icon.png);
+	width: 110px;
+	height: 40px;
+	position: absolute;
+	display:inline-block;
+	top: 10px;
+	left: 190px;
+}
+.j .q_link{
+	float: right;
+	position: relative;
+	top:65px;
+	overflow: hidden;
+	color: #999;
+}
+.j .q_link:hover{
+	color:#C81623;
+}
+.j .q_link b{
+	width: 18px;
+	height: 14px;
+	float: left;
+	background-image: url(../img/q-icon.png);
+	margin: 0 5px;
+}
+/*登录页面顶部end*/
+
+/*登录页面主体*/
+/*登录页面背景*/
+#content .conin .login_b{
+	background-color: #e93854;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 475px;
+	
+}
+#content .conin .j .login_b .j .banner_bg{
+	background-image: url(../img/5731485aN1134b4f0.png);
+	width: 100%;
+	height: 475px;
+}
+/*登录页面背景end*/
+#content .conin{
+	margin: 10px 0 20px 0;
+	position: relative;
+	height: 457px;
+	z-index: 5;
+}
+#content .conin .j .login{
+	position: absolute;
+	height: 346px;
+	z-index: 4;
+	background: #FFFFFF;
+	top: 40px;
+	right: 140px;
+}
+#content .conin .j .login .login_aa,
+#content .conin .j .login .login_a{
+	
+	width: 173px;
+	height: 54px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	display: inline-block;
+	border-bottom: 1px solid #F4F4F4;
+}
+#content .conin .j .login .login_aa{
+	float: right;
+}
+#content .conin .j .login .login_aa a,
+#content .conin .j .login .login_a a{
+	width: 99%;
+	height: 18px;
+	position: relative;
+	left: 0;
+	top: 18px;
+	border-right: 1px solid #f4f4f4;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+}
+#content .conin .j .login .login_a a:hover{
+	font-weight: bold;
+}
+#content .conin .j .login .login_aa a{
+	font-weight: bold;
+	color:#e4393c;
+}
+#content .conin .j .login .login_box{
+	padding: 20px;
+	width: 306px;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+.mc .mc_a .mc_b{
+	border: 1px solid #bdbdbd;
+	height: 38px;
+	width: 304px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.mc .mc_a .mc_b .mc_c{
+	width: 38px;
+	height: 38px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	border-right: 1px solid #bdbdbd;
+	background-image: url(../img/pwd-icons-new.png);
+}
+.mc .mc_a .mc_b .mc_d{
+	height: 18px;
+	line-height: 18px;
+	width: 254px;
+	padding: 10px 0 10px 50px;
+	border: 0;
+	overflow: hidden;
+	float: none;
+	font-size: 14px;
+}
+.mc .mc_a .mc_b .mc_cc{
+	background-position:-48px 0 ;
+}
+.mc_e{
+	width: 304px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+	display: block;
+}
+.mc_e a{
+	float: right;
+}
+.mc_f{
+	margin-bottom: 10px;
+}
+.mc_f .mc_ff{
+	background-color: #cb2a2d;
+	display: block;
+	width: 99%;
+	color: #FFFFFF;
+	height: 32px;
+	margin: 0 auto;
+	text-align: center;
+	bottom: -25px;
+}
+.mc_f .mc_ff a{
+	color: #FFFFFF;
+	width: 302px;
+	height: 31px;
+	font-size: 20px;
+	font-family: 'Microsoft YaHei';
+	position: relative;
+	left: 15px;
+	text-decoration: none;
+}
+#content .conin .j .login .coagent{
+	padding: 0 20px;
+	height: auto;
+	border-top: 1px solid #F4F4F4;
+	line-height: 50px;
+	background-color: #fcfcfc;
+	overflow: hidden;
+}
+
+.coagent .coa_a .coa_b{
+	float: left;
+}
+.coagent .coa_a .coa_b .coa_c:hover{
+	color:#C81623;
+}
+.coagent .coa_a .coa_b .coa_c{
+	display: inline-block;
+	position: relative;
+}
+.coagent .coa_a .coa_b .coa_c b{
+	width: 19px;
+	height: 18px;
+	background-image: url(../img/QQ-weixin.png);
+	display:inline-block;
+	margin: 0 auto;
+	position: relative;
+	top: 5px;
+	left: 0;
+	display: inline-block;
+}
+.coagent .coa_a .coa_b .coa_e{
+	padding:10px;
+	color: #CCCCCC;
+	display: inline-block;
+	line-height: 25px;
+}
+.coagent .coa_a .coa_b .coa_cc b{
+	background-position: 19px 0;
+}
+.coagent .coa_a .coa_f{
+	float: right;
+}
+.coagent .coa_a .coa_f .coa_cc b{
+	background-image: url(../img/pwd-icons-new.png);
+	background-position:18px -74px;
+}
+/*登录页面主体end*/
+
+/*登录页面end*/
